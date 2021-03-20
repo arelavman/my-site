@@ -1,7 +1,9 @@
 
 body {
     font-family: Helvetica,Arial,sans-serif;
+    
 }
+
 
 .header {
     position: absolute;
@@ -9,17 +11,245 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
+    padding-top: 36px;
+    background: rgb(8, 0, 0);
+    align-items: center;
+    
+    
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 h1, h2, h3, h4, h5, h6 {
 margin: 0;
 }
 .header__logo {
-    font-size: 30px;
+    
     font-weight: 700;
-    color: black;
+    color: rgb(247, 243, 243);
+    padding-left: 135px;
+    position: fixed;
+    top: 4px;
 }
 .nav {
-    font-size: 17px;
-    text-transform: uppercase;
+    font-size: 14px;
+    
+   padding-left: 250px;
+   position: fixed;
+   top: 6px;
+   margin-left: 10px;
+}
+
+.nav__link {
+   color: white;
+   text-decoration: none;
+   padding: 10px;
+   align-items: center;
+   vertical-align: top;
+   padding-right: 12px;
+   
+}
+
+.nav__link:hover {
+    color: rgb(7, 7, 7);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+
+}
+.nav__link {
+    border-right: 1px solid #ccc;
+    margin-right: 15px; 
+    padding-right: 15px; 
+     
+}
+.sing {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-left: 10px;
+    position: relative; 
+}
+.sing {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 100px; 
+    border-left: 1px solid #ccc; 
+    margin-left: 20px; 
+    padding-left: 20px; 
+}
+
+
+.sing:hover {
+    color: rgb(29, 19, 170);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+
+}
+
+.news {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+.news:hover {
+    color: rgb(197, 29, 17);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.news {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px; 
+}
+.sport {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+.sport:hover {
+    color: rgb(195, 226, 17);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.sport {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px; 
+}
+.reel {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+.reel:hover {
+    color: rgb(17, 125, 226);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.reel {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px; 
+}
+.worklife {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+.worklife:hover {
+    color: rgb(4, 62, 116);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.worklife {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px; 
+     
+}
+.trevel {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+
+.trevel:hover {
+    color: rgb(4, 116, 60);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.trevel {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px; 
+     
+}
+.future {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+.future:hover {
+    color: rgb(14, 2, 49);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.future {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px; 
+}
+.culture {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+.culture:hover {
+    color: rgb(60, 8, 104);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.culture {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px;  
+}
+.more {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+    vertical-align: top;
+    padding-right: 12px;
+}
+.more:hover {
+    color: rgb(245, 236, 236);
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+.more {
+    border-right: 1px solid #ccc;
+    margin-right: 20px; 
+    padding-right: 20px; 
+}
+.search {
+    position: fixed;
+    top: -8px;
+    right: 25px;
+    padding: 0px;
+    align-items: center;
+    
+    
+    
+    
+
+
 }
